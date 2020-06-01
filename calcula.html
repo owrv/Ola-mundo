@@ -8,8 +8,35 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
+    <!-- Este espaço deve ser centralizado horizontalmente -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+                <form action="">
+                    <div class="form-group row">
+                        <label for="actionLetter" class="col-sm-2 col-form-label">Nome da ação:</label>
+                        <div class="col-sm-2">
+                            <input type="text" name="actionLetter" id="actionLetter" class="form-control" placeholder="TOTVS3" class="visual">
+                        </div>
+                        <label for="papers" class="col-sm-2 col-form-label">Quantidade:</label>
+                        <div class="col-sm-2">
+                            <input type="number" name="papers" id="papers" class="form-control" placeholder="000" class="visual">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="taxCharged" class="col-sm-2 col-form-label">Imposto R$</label>
+                        <div class="col-sm-2">
+                            <input type="number" name="taxCharged" id="taxCharged" class="form-control" placeholder="0,00" class="visual">
+                        </div>
+                        <label for="taxa" class="col-sm-2 col-form-label">Taxa:</label>
+                        <div class="col-sm-2">
+                            <input type="number" name="taxa" id="taxa" class="form-control" placeholder="0,00" class="visual">
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </div>
 
-    <div class="container" oninput="calculaImposto()">
+    <div class="container grupo" oninput="calculaImposto()">
         <div class="row">
             <div class="col-sm-2">
                 <label for="valorImposto">Imposto R$</label>

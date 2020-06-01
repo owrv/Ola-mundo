@@ -5,6 +5,7 @@ var saldoConta = "";
 var creditoConta = "";
 var statusPedido = "";
 var statusCompra = "";
+var valorTaxa = "";
 
 function calculaImposto() {
     var taxaCobrada = document.getElementById("valorTaxa").value;
@@ -17,3 +18,4 @@ function calculaImposto() {
    document.getElementById("sumTaxa").value = totalTaxa;
 
 }
+
