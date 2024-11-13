@@ -1,19 +1,2 @@
-.form-control{
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    max-width: 55%;
-    border-radius: 0;
-    border-color: navy;
-    text-align: center;
-    padding-bottom: 0;
-}
 
-.col-form-label {
-    text-align: right;
-}
-
-.grupo {
-    display: none;
-}
 
